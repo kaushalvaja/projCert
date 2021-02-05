@@ -1,4 +1,4 @@
-FROM devopsedu/webapp
+FROM polinux/httpd-php
 
 ADD website /var/www/html/
 
