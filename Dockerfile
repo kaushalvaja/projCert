@@ -1,7 +1,7 @@
-FROM polinux/httpd-php
+FROM devopsedu/webapp
 
 ADD website /var/www/html/
 
 RUN rm /var/www/html/info.php
 
-CMD httpd -DFOREGROUND
+CMD apachectl -D FOREGROUND
